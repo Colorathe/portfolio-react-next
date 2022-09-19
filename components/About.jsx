@@ -15,7 +15,7 @@ function About() {
           </p>
           <h2 className='py-4 text-gray-300'>Who I Am</h2>
           <p className='py-2 text-gray-300'>
-            My name is Joaquin Vulcano I'm Front End Developer based in
+            My name is Joaquin Vulcano I am Front End Developer based in
             Argentina 🇦🇷 .
           </p>
           <p className='py-2 text-gray-300'>
@@ -29,7 +29,7 @@ function About() {
             self-taught and charismatic person. I really enjoy working in a team
             and meeting new people all the time.
           </p>
-          <a href='/#project'>
+          <a href='#project'>
             <p className='py-2 text-gray-300 underline cursor-pointer'>
               Check out some of my latest projects.
             </p>

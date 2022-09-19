@@ -12,7 +12,7 @@ const Contact = () => {
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Contact
         </p>
-        <h2 className='py-4 text-gray-300'>Let's Connect</h2>
+        <h2 className='py-4 text-gray-300'>Let&apos;s Connect</h2>
         <div className='grid lg:grid-cols-6 gap-8 '>
           {/* left */}
           <div className='col-span-3 lg-col-span-2 w-full h-hull shadow shadow-gray-400 rounded-xl p-4 bg-white'>
@@ -29,29 +29,29 @@ const Contact = () => {
                 <p>Front-End Developer</p>
                 <p className='py-4'>
                   I am available for freelance or full-time positions. Contact
-                  me and let's talk.
+                  me and let&apos;s talk.
                 </p>
               </div>
               <div>
                 <p className='upppercase pt-8 text-center'>Connect With Me </p>
                 <div className='flex items-center justify-center py-4 gap-3'>
                   <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 bg-white'>
-                    <a href='/'>
+                    <a href='https://www.linkedin.com/in/joaquinevulcano/'>
                       <FaLinkedinIn />
                     </a>
                   </div>
                   <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 bg-white'>
-                    <a href='/'>
+                    <a href='https://github.com/Colorathe'>
                       <FaGithub />
                     </a>
                   </div>
                   <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 bg-white'>
-                    <a href='/'>
+                    <a href='#contact'>
                       <AiOutlineMail />
                     </a>
                   </div>
                   <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 bg-white'>
-                    <a href='/'>
+                    <a href='https://docs.google.com/document/d/1nR9uczz08em-FiRN2ybhDb8kprced1qb8h3W3wfCCjs/edit?usp=sharing'>
                       <BsFillPersonLinesFill />
                     </a>
                   </div>

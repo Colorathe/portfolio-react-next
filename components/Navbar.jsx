@@ -57,30 +57,30 @@ const Navbar = () => {
       }
     >
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16 bg-gray-200'>
-        <a href='/'>
+        <Link href='/'>
           <Image src={AvatarImage} alt='imagen avatar' width={40} height={40} />
-        </a>
+        </Link>
 
         <div>
           <ul
             style={{ color: `${linkColor}` }}
             className='hidden md:flex font-semibold '
           >
-            <Link href='/#hero'>
+            <Link href='#hero'>
               <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
             </Link>
-            <Link href='/#about'>
+            <Link href='#about'>
               <li className='ml-10 text-sm uppercase hover:border-b'>About</li>
             </Link>
-            <Link href='/#skill'>
+            <Link href='#skill'>
               <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
             </Link>
-            <Link href='/#project'>
+            <Link href='#project'>
               <li className='ml-10 text-sm uppercase hover:border-b'>
                 Projects
               </li>
             </Link>
-            <Link href='/#contact'>
+            <Link href='#contact'>
               <li className='ml-10 text-sm uppercase hover:border-b'>
                 Contact
               </li>
@@ -142,25 +142,25 @@ const Navbar = () => {
           </div>
           <div className='py-4 flex flex-col'>
             <ul className='uppercase font-semibold text-dark'>
-              <Link href='/#hero'>
+              <Link href='#hero'>
                 <li className='py-4 text-sm'>Home</li>
               </Link>
-              <Link href='/#about'>
+              <Link href='#about'>
                 <li className='py-4 text-sm'>About</li>
               </Link>
-              <Link href='/#skill'>
+              <Link href='#skill'>
                 <li className='py-4 text-sm'>Skills</li>
               </Link>
-              <Link href='/#project'>
+              <Link href='#project'>
                 <li className='py-4 text-sm'>Projects</li>
               </Link>
-              <Link href='/#contact'>
+              <Link href='#contact'>
                 <li className='py-4 text-sm'>Contact</li>
               </Link>
             </ul>
             <div className='pt-40'>
               <p className='uppercase tracking-widest text-dark font-semibold'>
-                Let's Connect
+                Let&apos;s Connect
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 bg-white'>
@@ -174,12 +174,12 @@ const Navbar = () => {
                   </a>
                 </div>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 bg-white'>
-                  <a href='/#contact'>
+                  <a href='#contact'>
                     <AiOutlineMail />
                   </a>
                 </div>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 bg-white'>
-                  <a href='/#about'>
+                  <a href='#about'>
                     <BsFillPersonLinesFill />
                   </a>
                 </div>
