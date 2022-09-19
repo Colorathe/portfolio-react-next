@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { FotoPerfil } from "../public/assets";
+import { AvatarImage } from "../public/assets";
 
 function About() {
   return (
@@ -37,7 +37,7 @@ function About() {
         </div>
         <div className='w-full h-auto m-auto rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300 bg-white'>
           <Image
-            src={FotoPerfil}
+            src={AvatarImage}
             width={400}
             height={400}
             alt='Joaquin Vulcano Imagen'
