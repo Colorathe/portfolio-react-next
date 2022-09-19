@@ -122,7 +122,7 @@ const Contact = () => {
                 <input
                   type='hidden'
                   name='_next'
-                  value='http://localhost:3000/#contact'
+                  value='https://portfolio-colorathe.netlify.app/#contact'
                 />
                 <input type='hidden' name='_captcha' value='false' />
               </form>
