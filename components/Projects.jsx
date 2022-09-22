@@ -7,6 +7,7 @@ import {
   ImgProject3,
   ImgProject4,
   ImgProject5,
+  ImgProject6,
 } from "../public/assets";
 import ProjectItem from "./ProjectItem";
 
