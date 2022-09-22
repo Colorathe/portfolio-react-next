@@ -12,5 +12,6 @@ export { default as ImgProject2 } from "./admin-citas-page.png";
 export { default as ImgProject3 } from "./loginpage.png";
 export { default as ImgProject4 } from "./cripto-cotizador-page.png";
 export { default as ImgProject5 } from "./gifs-master.jpg";
+export { default as ImgProject6 } from "./todo-app-project.png";
 export { default as ContactImage } from "./contactImage.jpg";
 export { default as AvatarImage } from "./avatar.png";

@@ -49,6 +49,12 @@ const Projects = () => {
             projectUrl='https://buscador-gifs-joaquin.netlify.app'
             projectP='ReactJS, CSS'
           />
+          <ProjectItem
+            title='Todo App'
+            backgroundImg={ImgProject6}
+            projectUrl='https://to-do-app-colorathe.netlify.app/'
+            projectP='ReactJS, Tailwind, Firebase'
+          />
         </div>
       </div>
     </div>
