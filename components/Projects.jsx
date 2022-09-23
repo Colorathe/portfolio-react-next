@@ -8,6 +8,7 @@ import {
   ImgProject4,
   ImgProject5,
   ImgProject6,
+  ImgProject7,
 } from "../public/assets";
 import ProjectItem from "./ProjectItem";
 
@@ -54,6 +55,12 @@ const Projects = () => {
             title='Todo App'
             backgroundImg={ImgProject6}
             projectUrl='https://to-do-app-colorathe.netlify.app/'
+            projectP='ReactJS, Tailwind, Firebase'
+          />
+          <ProjectItem
+            title='Chat app'
+            backgroundImg={ImgProject7}
+            projectUrl='https://chat-app-colorathe.netlify.app/'
             projectP='ReactJS, Tailwind, Firebase'
           />
         </div>
